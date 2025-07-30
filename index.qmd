@@ -20,8 +20,10 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 import plotly.graph_objects as go
 from my_custom_package import DataProcessor, generate_sample_data, format_number
-
+```
+```{python}
 # Generate sample data
 data = generate_sample_data(500)
 print(f"Generated {len(data)} rows of sample data")
 data.head()
+```
