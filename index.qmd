@@ -23,7 +23,8 @@ from my_custom_package import DataProcessor, generate_sample_data, format_number
 ```
 ```{python}
 # Generate sample data
-data = generate_sample_data(500)
+#data = generate_sample_data(500)
+data = generate_sample_data(500, seed=42)
 print(f"Generated {len(data)} rows of sample data")
 data.head()
 ```
